@@ -127,43 +127,18 @@ More Commands are Coming Soon!!
     	await message.channel.send("Validation will be added soon!!")
     if message.content == "/a":
     	await message.channel.send('''
-NAME  -> TECHY BOT
-OWNER -> TECH_FURY#4530
-GUILD -> BOT_SERVER
+NAME  -> XXXXXXXXXXXX
+OWNER -> XXXXXXXXXXXXX
+GUILD -> XXXXXXXXXXX
     		''')
     if message.content == ("good morning" or "good night" or "good evening" or "good afternoon"):
         await message.channel.send(str(message.content).capitalize())
     if message.content == 'apology':
         await message.channel.send("I extremely apology for whatever I said! Very Sorry for that!")
     if message.content == 'school':
-        await message.channel.send("https://www.donboscopatna.com/")
+        await message.channel.send("XXXXXXXXXXXXXXXX")
     
 
 client.run(TOKEN)
 
-'''
-if message.content == 'school':
-    response = cmds['school']
-    await message.channel.send(response)
-if message.content == 'discord':
-    response = cmds['discord']
-    await message.channel.send(response)
-if message.content == 'whatsapp':
-    response = cmds['whatsapp']
-    await message.channel.send(response) 
-if message.content == 'tell me a joke':
-    response = cmds['jokes']
-    await message.channel.send(response)
-if message.content == 'apology':
-    await message.channel.send("I extremely apology for whatever I said! Very Sorry for that!")
 
-if 'hello' in str(message.content).lower():
-	if 'an' in str(message.content).lower():
-		await message.channel.send("Hello Anurag!")
-	if 'ag' in str(message.content).lower():
-		await message.channel.send("Hello, Atharva Gamer!")
-	if 'sh' in str(message.content).lower():
-		await message.channel.send("Hello, Shimeshu!")
-if str(message.content).lower() == 'hi':
-	await message.channel.send("Hello, Anurag!")   
-'''
